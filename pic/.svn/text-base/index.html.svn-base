@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+#gallery { width:800px; height:550px; margin:0 auto; position:relative; font-family:verdana, arial, sans-serif; background:#fff; }
+#gallery #slides { position:absolute; right:10px; top:0; height:550px; width:92px; overflow:hidden; text-align:center; z-index:500; }
+#gallery #slides div { width:92px; height:550px; position:relative; padding-top:10px; }
+#gallery #slides div ul { padding:0; margin:0; list-style:none; width:92px; height:550px }
+#gallery #slides div ul li { float:left; padding:1px 0; width:92px; height:69px; }
+#gallery #slides div ul li a { display:block; width:92px; height:69px; float:left; }
+#gallery #slides div ul li a b { display:none; }
+#gallery #slides div ul li a.previous { background:url(double-click/up.png) no-repeat center center; }
+#gallery #slides div ul li a.next { background:url(double-click/down.png) no-repeat center center; }
+#gallery #slides div ul li a img { display:block; width:92px; height:69px; border:0; }
+#gallery #slides div ul li img.blank { margin:0 auto; padding-top:11px; }
+#gallery #slides div ul li a:focus { outline:0; }
+#gallery #fullsize { position:absolute; left:0; top:0; height:550px; width:800px; overflow:hidden; text-align:center; z-index:200; }
+#gallery #fullsize div { width:800px; height:700px; padding-top:70px; position:relative; }
+#gallery #fullsize div img { clear:both; display:block; margin:0 auto; border:1px solid #eee; width:560px; height:400px; position:relative; background:#fff; padding:10px; }
+#gallery #fullsize div h3 { padding:10px 0 0 0; margin:0; font-size:18px; }
+#gallery #fullsize div p { padding:5px 135px; margin:0; font-size:12px; line-height:18px; }
+</style>
+</head>
+<body>
+<div id="gallery">
+  <div id="slides">
+    <div id="slide1">
+      <ul>
+        <li></li>
+        <li><a href="#pic1"><img src="double-click/pic1.jpg" alt="Winter branches" /></a></li>
+        <li><a href="#pic2"><img src="double-click/pic2.jpg" alt="Wading birds" /></a></li>
+        <li><a href="#pic3"><img src="double-click/pic3.jpg" alt="Bird on a post" /></a></li>
+
+      </ul>
+    </div>
+  </div>
+  <div id="fullsize">
+    <div id="pic1"> <img src="double-click/pic1.jpg" />
+
+    </div>
+    <div id="pic2"> <img src="double-click/pic2.jpg"  />
+
+    </div>
+    <div id="pic3"> <img src="double-click/pic3.jpg" />
+
+    </div>
+    <div id="pic4"> <img src="double-click/pic4.jpg"  />
+
+    </div>
+    <div id="pic5"> <img src="double-click/pic5.jpg"/>
+
+    </div>
+    <div id="pic6"> <img src="double-click/pic6.jpg" />
+
+    </div>
+    <div id="pic7"> <img src="double-click/pic7.jpg"/>
+
+    </div>
+    <div id="pic8"> <img src="double-click/pic8.jpg"  />
+
+    </div>
+    <div id="pic9"> <img src="double-click/pic9.jpg"  />
+
+    </div>
+    <div id="pic10"> <img src="double-click/pic10.jpg"/>
+
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+</body>
+</html>
